@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Link the css file-->
+        <link href="style.css" rel="stylesheet">
+        <!-- Link javascript file-->
+        <script src="main.js"></script>
+
+    </head>
+    <body>
+
+        <nav class ="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class ="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggles="collapse" data-target="#MyNavBar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo2.png" id="logo"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li><a href="download.html">Downloads</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <div class="container">
+                <h2>Developers</h2>
+                <div class="container">
+                    <ul id="myUL2">
+                        <li>John Kuczynski - john_kuczynski@student.uml.edu</li>
+                        <li>Ravy Thok - ravy_thok@student.uml.edu</li>
+                    </ul>
+                </div>
+                <h2>Feedbacks, Comments, or Questions</h2>
+                <form action="/action_page.php">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="australia">USA</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">Australia</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer class="container-fluid text-center">
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="email">Subscribe for Updates</label>
+            <div class="col-sm-4">
+                <input type ="text" class="form-control" id="name" placeholder="Enter Name" name="Name">
+            </div>
+            <div class="col-sm-4">
+                <input type ="email" class="form-control" id="email" placeholder="Enter Email" name="email">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+    </form>
+    <p>CAMM Copyright 2017</p>
+</footer>
+
+</body>
+</html>
